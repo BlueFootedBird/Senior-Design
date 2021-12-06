@@ -1,0 +1,13 @@
+<div class="login">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+	<h1>Login</h1>
+	  <form method="post">
+		<input type="text" name="username" placeholder="Username" required="required"
+			   value = "{{request.form.username}}"/>
+		  <input type="password" name="password" placeholder="Password" required="required"
+				 value = "{{request.form.password}}"/>
+		  <button type="submit" class="btn btn-primary btn-block btn-large" onclick="validate()">Login</button>
+	  </form>
+  </div>
+
+  
