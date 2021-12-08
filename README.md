@@ -77,8 +77,8 @@ Our team shall use these metrics as a quantitative approach to identify an optim
 | Device | CVEs | Flashyness | Cost | CVSS Score | Hacking Difficulty | CDC Integration | Total Score |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | Jector Smart TV FM-K75 | [CVE-2019-9871](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9871) | 5 | 0 (Very Expensive) | 9.8 (Critical) | 4.0 (Easy) | 3.0 (Somewhat Intregratable) | 21.8 |
-| Yi Home Camera 27US | [CVE-2018-3934](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3934) | -- | 5 (Cheap) | 9.0 (Critical) | 2 (Hard) | -- | -- |
-| TP-Link Archer A7 AC1750 | [CVE-2020-10888](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10888) | -- | 5 (Cheap) | 9.8 (Critical) | 2 (Hard) | -- | -- |
+| Yi Home Camera 27US | [CVE-2018-3934](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3934) | 2 | 4 (Somewhat Cheap) | 9.0 (Critical) | 2 (Hard) | 2 (Barely Integratable) | 19.7 |
+| TP-Link Archer A7 AC1750 | [CVE-2020-10888](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10888) | 1 | 3 (Moderate) | 9.8 (Critical) | 2 (Hard) | 2 (Barely Integratable) | 18.7 |
 | Eques Elf Smart Plug | [CVE-2019-15745](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15745) | 3 | 5 (Cheap) | 8.8 (High) | 3 (Medium) | 3 (Somewhat Intregratable) | 22.8 |
 | XIAOMI XIAOAI speaker Pro LX06 | [CVE-2020-10263](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10263) | 3 | 5 (Cheap) | 6.8 (Medium) | -- | 2 (Barely Intregratable) | -- |
 | Raspberry Pi 3 | Unlimited | Variable | 5 (Cheap) | Variable | Variable | 4 (Intregratable) | -- |
