@@ -1,5 +1,11 @@
 from flask import Flask, render_template, redirect, url_for, request
 import subprocess
+import urllib
+
+
+#request_response = urllib.request.urlopen("http://www2.student223.230.com:8000/cpre230App/")
+#status_code = request_response.status_code
+#print(status_code)
 
 
 app = Flask(__name__)
@@ -18,7 +24,12 @@ def hello():
         return render_template('index.html')
 
 
-@app.route('/disable', methods=['GET'])
-def phpscript():
-    subprocess.run(['cd','/ ', '&', './disableWebsite.sh'], shell=True)
+@app.route('/disable', methods=['GET', 'POST'])
+def stopservice():
+    subprocess.run(['/disableWebsite.sh'])
+    return render_template('login.html')
+
+@app.route('/enable', methods=['GET', 'POST'])
+def startservice():
+    subprocess.run(['/enableWebsite.sh'])
     return render_template('login.html')
